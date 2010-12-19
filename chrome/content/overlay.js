@@ -48,6 +48,7 @@ var generator = {
 	ta.style.position = "fixed";
 	ta.style.top = 0;
 	ta.style.left = 0;
+	ta.zIndex = 1010;
 	ta.style.overflow = "visible";
 	ta.disabled = "disabled";
 	window.content.document.getElementsByTagName("body")[0].appendChild(ta);
