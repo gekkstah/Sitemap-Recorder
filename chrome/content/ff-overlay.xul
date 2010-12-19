@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://generator/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://generator/locale/overlay.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+<statusbar id="status-bar">
+<button label="Add2Sitemap" oncommand="generator.onPush(event)" />
+<button label="Show Sitemap" oncommand="generator.onCat(event)" />
+</statusbar>
+</overlay>

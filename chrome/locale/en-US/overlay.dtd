@@ -1,0 +1,8 @@
+<!ENTITY generator.label "Your localized menuitem">
+<!ENTITY generatorContext.label "Your Menuitem">
+<!ENTITY generatorContext.accesskey "Y">
+<!ENTITY generatorToolbarButton.label "Your Toolbar Button">
+<!ENTITY generatorToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY generatorSidebar.label "Your Sidebar">
+<!ENTITY generatorToolbar.name  "example">
+<!ENTITY generatorToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &generatorToolbar.name;">

@@ -1,0 +1,7 @@
+content   generator                 chrome/content/
+skin      generator   classic/1.0   chrome/skin/
+locale    generator   en-US         chrome/locale/en-US/
+
+
+overlay   chrome://browser/content/browser.xul   chrome://generator/content/ff-overlay.xul
+style chrome://global/content/customizeToolbar.xul chrome://generator/skin/overlay.css
