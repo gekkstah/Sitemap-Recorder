@@ -5,7 +5,13 @@
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script src="overlay.js"/>
   <script src="ff-overlay.js"/>
+  <keyset>
+  <key id="add-key" modifiers="shift" key="A" oncommand="generator.onPush(event)" />
+  
+</keyset>
+
 <statusbar id="status-bar">
+
 <button label="Add2Sitemap" oncommand="generator.onPush(event)" />
 <button label="Show Sitemap" oncommand="generator.onCat(event)" />
 <button label="Drop Sitemap" oncommand="generator.onDrop(event)" />
